@@ -1,2 +1,2 @@
 # transformer-CIFAR100
-在transformer上进行CIFAR100的训练
+在Convolution-enhanced image Transformer（CeiT）上进行CIFAR100的训练
