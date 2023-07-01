@@ -1,6 +1,13 @@
 # transformer-CIFAR100
 在Convolution-enhanced image Transformer（CeiT）上进行CIFAR100的训练，baseline 为 ResNet18
 
+### 文件下载
+包含 CeiT 和 ResNet 两个模型的checkpoint和log文件
+
+https://pan.baidu.com/s/16wdkYhzc6bqb5jdGNrEYyQ?pwd=k8j8
+
+
+
 ### Install requirement
 ```
 pip install -r requirements.txt
@@ -26,7 +33,3 @@ python train.py -net resnet18 -gpu
 ```
 python test.py -net resnet18 -weights checkpoint/resnet18.pth -gpu
 ```
-
-可下载训练好的模型进行测试
-Github 代码地址：https://github.com/ivorytan/transformer-resnet-cifar100
-模型下载地址：链接：https://pan.baidu.com/s/1kw0LgUn37Jvkwx_lGYM1Eg 提取码：549c
