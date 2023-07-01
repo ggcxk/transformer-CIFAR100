@@ -1,0 +1,41 @@
+data:
+  dataset: cifar100
+  image_size: 224
+  outdir: ./checkpoint
+  path: ./data
+model:
+  conv_kernel: 7
+  depth: 12
+  depth_kernel: 3
+  dim: 192
+  dim_head: 64
+  dropout: 0.0
+  emb_dropout: 0.0
+  heads: 3
+  in_channels: 3
+  lca_dim: 192
+  lca_dim_head: 48
+  lca_heads: 4
+  lca_mlp_dim: 384
+  num_classes: 100
+  out_channels: 32
+  patch_size: 4
+  pool: cls
+  pool_kernel: 2
+  pool_stride: 2
+  scale_dim: 4
+  stride: 2
+  with_lca: true
+train:
+  accum_grad: 1
+  batch: 64
+  decay_type: cosine
+  grad_clip: 1.0
+  lr: 0.001
+  ngpu: 1
+  num_steps: 15000
+  seed: 1992
+  valid_batch: 32
+  valid_step: 500
+  warmup_steps: 3500
+  weight_decay: 0.05
