@@ -7,12 +7,6 @@
 https://pan.baidu.com/s/16wdkYhzc6bqb5jdGNrEYyQ?pwd=k8j8
 
 
-
-### Install requirement
-```
-pip install -r requirements.txt
-```
-
 ### CeiT训练：
 Train :
 ```
